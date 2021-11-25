@@ -34,3 +34,35 @@ def test_is_valid(test):
 
 
 print(test_is_valid(9.1))
+
+greeting = "Hello world!"
+new_greeting = 'J' + greeting[1:]
+print(new_greeting)
+
+word = "banana"
+count = 0
+for letter in word:
+    if letter == 'a':
+        count = count + 1
+print(count)
+
+newDict = {'one': 'bir', 'two': 'ikki'}
+
+print(newDict)
+
+print(len(newDict))
+
+# funpro = input("What is your final mark for FunPro: ")
+
+# webtech = input("What is your final mark for WebTech: ")
+
+# csf = input("What is your final mark for CSF: ")
+
+myFinalMarks = {}
+
+
+# myFinalMarks['FunPro'] = funpro
+# myFinalMarks['WebTech'] = webtech
+# ['CSF'] = csf
+
+
